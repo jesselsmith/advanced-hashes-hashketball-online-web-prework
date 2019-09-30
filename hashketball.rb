@@ -129,7 +129,6 @@ def winning_team
     current_team = {
       :team_name => team_data[:team_name], 
       :points => total_points
-      
     }
     if winner === nil
       winner = current_team
